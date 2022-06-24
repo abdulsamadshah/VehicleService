@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Admin/Android Studio All App/BikeService App/Vehicle ServiceRepair/app/src/main/res/drawable-v24/bikedesigncolor.xml" value="0.1665" />
+        <entry key="..\:/Users/Admin/Android Studio All App/BikeService App/Vehicle ServiceRepair/app/src/main/res/drawable/back.xml" value="0.188" />
+        <entry key="..\:/Users/Admin/Android Studio All App/BikeService App/Vehicle ServiceRepair/app/src/main/res/drawable/buttondesign.xml" value="0.1665" />
+        <entry key="..\:/Users/Admin/Android Studio All App/BikeService App/Vehicle ServiceRepair/app/src/main/res/drawable/candidatebackground.xml" value="0.1665" />
+        <entry key="..\:/Users/Admin/Android Studio All App/BikeService App/Vehicle ServiceRepair/app/src/main/res/drawable/edittextbackground.xml" value="0.1665" />
+        <entry key="..\:/Users/Admin/Android Studio All App/BikeService App/Vehicle ServiceRepair/app/src/main/res/drawable/home.xml" value="0.1665" />
+        <entry key="..\:/Users/Admin/Android Studio All App/BikeService App/Vehicle ServiceRepair/app/src/main/res/drawable/layoutbackground.xml" value="0.1665" />
+        <entry key="..\:/Users/Admin/Android Studio All App/BikeService App/Vehicle ServiceRepair/app/src/main/res/drawable/layoutdesign.xml" value="0.1665" />
+        <entry key="..\:/Users/Admin/Android Studio All App/BikeService App/Vehicle ServiceRepair/app/src/main/res/drawable/locationdesign.xml" value="0.1665" />
+        <entry key="..\:/Users/Admin/Android Studio All App/BikeService App/Vehicle ServiceRepair/app/src/main/res/drawable/petrolanddiesel.xml" value="0.1665" />
+        <entry key="..\:/Users/Admin/Android Studio All App/BikeService App/Vehicle ServiceRepair/app/src/main/res/drawable/searchbardesign.xml" value="0.1665" />
+        <entry key="..\:/Users/Admin/Android Studio All App/BikeService App/Vehicle ServiceRepair/app/src/main/res/font/baloo_bhai.xml" value="0.234375" />
+        <entry key="..\:/Users/Admin/Android Studio All App/BikeService App/Vehicle ServiceRepair/app/src/main/res/layout/activity_city.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Admin/Android Studio All App/BikeService App/Vehicle ServiceRepair/app/src/main/res/layout/activity_dashboard.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Admin/Android Studio All App/BikeService App/Vehicle ServiceRepair/app/src/main/res/layout/activity_dataverify.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Admin/Android Studio All App/BikeService App/Vehicle ServiceRepair/app/src/main/res/layout/activity_main.xml" value="0.22" />
+        <entry key="..\:/Users/Admin/Android Studio All App/BikeService App/Vehicle ServiceRepair/app/src/main/res/layout/activity_manufacture.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Admin/Android Studio All App/BikeService App/Vehicle ServiceRepair/app/src/main/res/layout/activity_manufacturelayout.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Admin/Android Studio All App/BikeService App/Vehicle ServiceRepair/app/src/main/res/layout/activity_modellayout.xml" value="0.1" />
+        <entry key="..\:/Users/Admin/Android Studio All App/BikeService App/Vehicle ServiceRepair/app/src/main/res/layout/activity_signup.xml" value="0.22" />
+        <entry key="..\:/Users/Admin/Android Studio All App/BikeService App/Vehicle ServiceRepair/app/src/main/res/layout/activity_state.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Admin/Android Studio All App/BikeService App/Vehicle ServiceRepair/app/src/main/res/layout/activity_user_profile.xml" value="0.22" />
+        <entry key="..\:/Users/Admin/Android Studio All App/BikeService App/Vehicle ServiceRepair/app/src/main/res/layout/activity_vehicle_detail.xml" value="0.2" />
+        <entry key="..\:/Users/Admin/Android Studio All App/BikeService App/Vehicle ServiceRepair/app/src/main/res/layout/activity_worker_signup.xml" value="0.22" />
+        <entry key="..\:/Users/Admin/Android Studio All App/BikeService App/Vehicle ServiceRepair/app/src/main/res/layout/candidataandstartup_layout.xml" value="0.25" />
+        <entry key="..\:/Users/Admin/Android Studio All App/BikeService App/Vehicle ServiceRepair/app/src/main/res/layout/fragment_bookings.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Admin/Android Studio All App/BikeService App/Vehicle ServiceRepair/app/src/main/res/layout/fragment_home.xml" value="0.22" />
+        <entry key="..\:/Users/Admin/Android Studio All App/BikeService App/Vehicle ServiceRepair/app/src/main/res/layout/fragment_profile.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Admin/Android Studio All App/BikeService App/Vehicle ServiceRepair/app/src/main/res/layout/fragment_rewards.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Admin/Android Studio All App/BikeService App/Vehicle ServiceRepair/app/src/main/res/layout/locationname.xml" value="0.25" />
+        <entry key="..\:/Users/Admin/Android Studio All App/BikeService App/Vehicle ServiceRepair/app/src/main/res/layout/manufacturelayout.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Admin/Android Studio All App/BikeService App/Vehicle ServiceRepair/app/src/main/res/menu/mymenu.xml" value="0.20416666666666666" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

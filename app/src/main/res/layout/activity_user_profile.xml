@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FCFDFD"
+    tools:context=".userProfileActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@color/white"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/backdata"
+            android:layout_marginTop="15dp"/>
+
+
+        <TextView
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:text="Edit Profile"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:layout_marginLeft="65dp"
+            android:textSize="25dp"
+            android:layout_marginTop="-35dp"
+            android:textAlignment="center"
+            android:gravity="center" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:background="#EDECEC"
+        android:layout_height="25dp">
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="match_parent"
+            android:layout_height="98dp"
+            android:src="@drawable/avatar"
+            app:civ_border_color="@color/purple_200"
+            app:civ_border_width="2dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Profile Info"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="22dp"
+            android:textAlignment="center"
+            android:gravity="center"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="55dp"
+                android:layout_height="45dp"
+                android:paddingTop="5dp"
+                android:src="@drawable/man" />
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:text="Name"
+                android:textColor="@color/black"
+                android:layout_marginLeft="60dp"
+                android:layout_marginTop="-40dp"
+                android:textSize="17dp"/>
+
+            <EditText
+                android:id="@+id/username"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:background="@null"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="60dp"
+                android:text="username"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginLeft="60dp"
+                android:layout_marginRight="20dp"
+                android:background="#555454"/>
+
+            <ImageView
+                android:id="@+id/wrong"
+                android:layout_width="25dp"
+                android:layout_height="20dp"
+                android:layout_marginTop="-25dp"
+                android:paddingRight="8dp"
+                android:src="@drawable/wrong"
+                android:layout_marginLeft="350dp"/>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="55dp"
+                android:layout_height="45dp"
+                android:paddingTop="5dp"
+                android:src="@drawable/phonecall" />
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:text="Phone Number"
+                android:textColor="@color/black"
+                android:layout_marginLeft="60dp"
+                android:layout_marginTop="-40dp"
+                android:textSize="17dp"/>
+
+            <EditText
+                android:id="@+id/phonenumbers"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:background="@null"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="60dp"
+                android:text="username"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginLeft="60dp"
+                android:layout_marginRight="20dp"
+                android:background="#555454"/>
+
+            <ImageView
+                android:id="@+id/phonewrong"
+                android:layout_width="25dp"
+                android:layout_height="20dp"
+                android:layout_marginTop="-25dp"
+                android:paddingRight="8dp"
+                android:src="@drawable/wrong"
+                android:layout_marginLeft="350dp"/>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="55dp"
+                android:layout_height="45dp"
+                android:paddingTop="5dp"
+                android:src="@drawable/emails" />
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:text="Email"
+                android:textColor="@color/black"
+                android:layout_marginLeft="60dp"
+                android:layout_marginTop="-40dp"
+                android:textSize="17dp"/>
+
+            <EditText
+                android:id="@+id/emailid"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:background="@null"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="60dp"
+                android:text="username"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginLeft="60dp"
+                android:layout_marginRight="20dp"
+                android:background="#555454"/>
+
+            <ImageView
+                android:id="@+id/emailwrong"
+                android:layout_width="25dp"
+                android:layout_height="20dp"
+                android:layout_marginTop="-25dp"
+                android:paddingRight="8dp"
+                android:src="@drawable/wrong"
+                android:layout_marginLeft="350dp"/>
+
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="55dp"
+                android:layout_height="45dp"
+                android:paddingTop="5dp"
+                android:src="@drawable/city" />
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:text="City"
+                android:textColor="@color/black"
+                android:layout_marginLeft="60dp"
+                android:layout_marginTop="-40dp"
+                android:textSize="17dp"/>
+
+            <EditText
+                android:id="@+id/city"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:background="@null"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="60dp"
+                android:text="username"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginLeft="60dp"
+                android:layout_marginRight="20dp"
+                android:background="#555454"/>
+
+            <ImageView
+                android:id="@+id/citywrong"
+                android:layout_width="25dp"
+                android:layout_height="20dp"
+                android:layout_marginTop="-25dp"
+                android:paddingRight="8dp"
+                android:src="@drawable/wrong"
+                android:layout_marginLeft="350dp"/>
+
+        </LinearLayout>
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="61dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="65dp"
+            android:textColor="@color/white"
+            android:backgroundTint="@color/black"
+            android:text="Update Profile"/>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
